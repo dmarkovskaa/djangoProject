@@ -1,0 +1,20 @@
+# Core framework
+Django==5.0.6
+
+# Database (PostgreSQL)
+psycopg2-binary==2.9.9
+
+# Image processing (product photos)
+Pillow==10.3.0
+
+# Excel export/import
+openpyxl==3.1.5
+
+# Environment variables (for .env settings)
+python-dotenv==1.0.1
+
+# For production deployment (optional)
+gunicorn==22.0.0
+
+# Optional tools (recommended)
+django-extensions==3.2.3
